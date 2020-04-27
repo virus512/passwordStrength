@@ -26,7 +26,7 @@ function weryfikuj()
     var d = haslo.length;
 
     if (haslo == "")
-    document.getElementById("wynik").innerHTML = '<span style="color:red">hasło jest puste, wspisz cokolwiek</span>';
+    document.getElementById("wynik").innerHTML = '<span style="color:red">hasło jest puste, wpisz cokolwiek</span>';
     else if (d >= 7 && jest_cyfra(haslo) == true)
     {
         document.getElementById("wynik").innerHTML = '<span style="color:green">hasło jest dobre</span>';

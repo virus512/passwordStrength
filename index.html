@@ -9,15 +9,30 @@
 
 
     <body>
-        <h1>Weryfikacja hasła</h1>
+       
+        <div class = "baner">
+            <a href="index.html"><h1>Sprawdź swoje hasło</h1></a>
+        </div>
+        
+        <div class = "lewy">
+            <h2>Wybierz</h2>
+            <ol>
+                <li><a href ="haslo.html">Sprawdź hasło</a></li>
+                <li><a href ="zasady.html">Zasady tworzenia hasła</a></li>
+            </ol>
+        </div>
+        
+        <div class = "prawy">
+            <img  src = "img/haslo.png" class = "obraz"/>
+        </div>
+        
+        <div class = "stopka">
+            <h3>Miernik jakości hasła</h3>
+            <p> Stronę opracował Marcin </p>
+        </div>
 
-        <label>Wpisz hasło: <input type="password" id="haslo"></label>
-        <br><br>
 
-        <input type="button" value="Weryfikuj" onclick="weryfikuj()">
 
-        <div id="wynik" style="margin-top:20px"></div>
-
-        <script src="weryfikacja.js"></script>
+    
     </body>
 </html>
